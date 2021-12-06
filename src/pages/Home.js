@@ -23,7 +23,7 @@ const Home = () => {
                     <br />
                     I've lived in Hanoi, Vietnam
                     </h1>
-                    <a href="https://i.topcv.vn/duongthuhuong?ref=4871584" target="_blank" className="btn bg-org">My CV</a>
+                    <a  href="https://i.topcv.vn/duongthuhuong?ref=4871584" rel="noreferrer" target="_blank" className="btn bg-org">My CV</a>
                 </div>
                 </div>
             </div>
