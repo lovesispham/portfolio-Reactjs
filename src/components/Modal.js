@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import default_img from "../assets/img/project-1.jpg";
 const Modal = ({ isShowing, close, project }) =>
 
   isShowing

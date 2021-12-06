@@ -1,5 +1,4 @@
 import React from "react";
-import default_img from "../assets/img/project-1.jpg";
 import data from "../assets/fake-data/projectdata.js";
 import useModal from "../components/useModal.js";
 import Modal from "../components/Modal.js";
