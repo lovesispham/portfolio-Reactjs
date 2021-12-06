@@ -28,7 +28,7 @@ const Modal = ({ isShowing, close, project }) =>
                     <a className="text" href={`//${project.link}`} target="_blank" rel="noopener noreferrer" alt="" >
                     <i className="fa fa-external-link"></i>
                     <span className="project-label">Preview :</span>
-                    <span className="fbold"> {project.link}</span>
+                    <span className="link"> Click link here</span>
                     </a>
                   </li>
                   <li>
@@ -41,7 +41,7 @@ const Modal = ({ isShowing, close, project }) =>
                   </li>
                 </ul>
                 <div className="photo">
-                <img src={default_img} alt="" />
+                <img src={project.img} alt="" />
                 </div>
               </div>
             </div>

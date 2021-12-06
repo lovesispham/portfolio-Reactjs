@@ -102,11 +102,12 @@
         }
     }
     .item{
+        position: relative;
         &:hover{
             .photo{
                 &:hover{
                     &:before{
-                        opacity: 1;
+                        opacity: 0.5;
                         visibility: visible;
                     }
                     .title{
@@ -114,14 +115,35 @@
                         opacity: 1;
                         transform: translateY(0);
                     }
+                    .demo-thumb {
+                        background-position: center bottom;
+                    }
                 }
+
             }
+        }
+        .demo-thumb{
+            background-size: 100% auto;
+            -webkit-transition: all 8s;
+            -moz-transition: all 8s;
+            -o-transition: all 8s;
+            transition: all 8s;
+            background-position: center top;
+            position: relative;
+            padding-bottom: 260px;
+            border-radius: 5px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .photo{
             position: relative;
             @include transition2;
             border-radius: 5px;
             overflow: hidden;
+            border: 1px solid #efefef;
             cursor: pointer;
             &:before{
                 content: "";
@@ -132,9 +154,11 @@
                 left: 0;
                 top: 0;
                 z-index: 1;
-                opacity: 0;
-                visibility: hidden;
-                transition: .5s;
+                @media(min-width:$screen-md){
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: .5s;
+                }
             }
             
             img{
@@ -156,10 +180,34 @@
             text-align: center;
             width: 100%;
             padding: 0 10px;
-            visibility: hidden;
+            
+            @media(min-width:$screen-md){
             opacity: 0;
+            visibility: hidden;
+            }
             @include transition2;
-            z-index:5;
+            z-index:15;
+        }
+        .project-name{
+            margin: 0;
+            padding: 0 10px;
+            border-radius: 50%;
+            background: $org;
+            text-align: center;
+            color: #fff;
+            display: inline-block;
+            width: 120px;
+            height: 100px;
+            position: absolute;
+            z-index: 20;
+            top: -35px;
+            left: -20px;
+            font-weight: 500;
+            font-size: 12px;
+            span{
+                @include center;
+                top:62%;
+            }
         }
     }
 }
@@ -168,7 +216,7 @@
     @media(min-width:$screen-sm){
     padding: 60px 0;
     }
-    padding: 15px 0;
+    padding: 30px 0;
     [class*="col-"] {
         @media(min-width:$screen-sm){
             padding-left: 20px;

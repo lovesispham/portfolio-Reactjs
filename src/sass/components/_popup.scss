@@ -156,6 +156,10 @@
             color:$body-color;
             .fbold{
                 color: $base-color;
+                word-break: break-all;
+            }
+            .link{
+                color: $f-line;
             }
         }
         [class*="fa"] {
@@ -166,9 +170,13 @@
      }
      .photo{
          border-radius:5px;
+         border: 1px solid #efefef;
          img{
              width: 100%;
              border-radius:5px;
+             height: 373px;
+             object-fit: cover;
+             object-position: center top
          }
      }
  }

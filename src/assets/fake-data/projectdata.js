@@ -9,36 +9,48 @@ import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 
+import i_project_1 from "../../assets/img/project/nomos-reactjs.png";
+import i_project_2 from "../../assets/img/project/portfolio-reactjs.png";
+import i_project_3 from "../../assets/img/project/cosso-html.png";
+import i_project_4 from "../../assets/img/project/ecome-shopify.jpg";
+import i_project_5 from "../../assets/img/project/zoa-shopify.jpg";
 
 const data = {
     project : [
         {
             id:1,
             name : "Nomos - Ecommerce",
-            img :"",
+            img :i_project_1,
             language : "Reactjs",
-            link :""
+            link :"nomos-reactredux.herokuapp.com/"
         },
         {
             id:2,
-            name : "Zoastore - Landingpage",
-            img : "",
-            language : "HTML, CSS, Javascript",
-            link :""
+            name : "My Portfolio",
+            img :i_project_2,
+            language : "Reactjs",
+            link :"dazzling-hopper-781624.netlify.app/"
         },
         {
             id:3,
-            name : "Ecome - Ecommerce Shopping Cart",
-            img :"",
-            language : "Shopify",
-            link :""
+            name : "Cosso - Clean, Minimal Responsive HTML Template",
+            img : i_project_3,
+            language : "HTML, CSS, Javascript",
+            link :"landing.engotheme.com/html/cosso/demo/home_bestselling.html"
         },
         {
             id:4,
-            name : "Funiter - Elegant furniture shop for Shopify (Mobile Friendly)",
-            img :"",
+            name : "Ecome - Ecommerce Shopping Cart",
+            img :i_project_4,
             language : "Shopify",
-            link :'funiter-demo.myshopify.com'
+            link :"e-come-store.myshopify.com/"
+        },
+        {
+            id:5,
+            name : "Zoa - Minimalist Shopify Theme",
+            img :i_project_5,
+            language : "Shopify",
+            link :'zoa-store-demo.myshopify.com/'
         }
     ],
     education : [

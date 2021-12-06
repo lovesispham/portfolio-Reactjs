@@ -17,23 +17,29 @@ const Portfolio = () => {
             <h1 className="heading">All Projects</h1>
             </Fade>
             <div className="row">
-            <Fade direction="left" delay={200}>
+            
             {data.project.map((item, index) => (
-                
-              <div className="col-xs-4" key={item.id}>
+             
+              <div className="col-xs-4" key={index}>
+              <Fade direction="left" cascade>
                 <div className="item" onClick={()=> handleOpen(item.id)}>
                   <div className="photo">
-                     
-                    <img src={default_img} alt="" />
+                  
+                    <div className="demo-thumb" style={{backgroundImage:`url(${item.img})`}}>
+
+                    </div>
+                    
                     <div className="overlay-bg">
                       <h3 className="title">{item.name}</h3>
+                      <p className="project-name"> <span>{item.language}</span> </p>
                     </div>
                   </div>
                 </div>
+                </Fade>
               </div>
               
           ))}
-          </Fade>
+          
             </div>
             
             <Modal
