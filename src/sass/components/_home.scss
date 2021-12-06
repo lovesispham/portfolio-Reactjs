@@ -96,6 +96,9 @@
     padding: 15px 0;
     [class*="col-"] {
         margin-bottom: 30px;
+        @media(max-width:813px){
+            width: 50%;
+        }
         @media(max-width:$screen-xs-max){
             width: 100%;
             margin-bottom: 15px;
@@ -154,6 +157,9 @@
                 left: 0;
                 top: 0;
                 z-index: 1;
+                @media(max-width:$screen-sm-max){
+                    opacity: 0.5;
+                }
                 @media(min-width:$screen-md){
                     opacity: 0;
                     visibility: hidden;
