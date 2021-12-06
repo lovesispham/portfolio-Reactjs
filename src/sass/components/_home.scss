@@ -36,10 +36,11 @@
 
 .section-hero-2{
     @media(min-width:$screen-sm){
-        overflow:hidden;
-        height: calc(100vh - 30px);
-        
-        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 0;
     }
     padding-top: 15px;
     [class*="col-"] {
