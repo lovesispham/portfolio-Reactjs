@@ -31,7 +31,7 @@ const data = {
             name : "PhotoApp",
             img :i_project_6,
             language : "Reactjs",
-            link :"https://affectionate-kalam-e32841.netlify.app/"
+            link :"affectionate-kalam-e32841.netlify.app/"
         },
         {
             id:3,
