@@ -15,6 +15,8 @@ import i_project_3 from "../../assets/img/project/cosso-html.png";
 import i_project_4 from "../../assets/img/project/ecome-shopify.jpg";
 import i_project_5 from "../../assets/img/project/zoa-shopify.jpg";
 
+import i_project_6 from "../../assets/img/project/photoapp-reactjs.png";
+
 const data = {
     project : [
         {
@@ -26,27 +28,34 @@ const data = {
         },
         {
             id:2,
+            name : "PhotoApp",
+            img :i_project_6,
+            language : "Reactjs",
+            link :"https://affectionate-kalam-e32841.netlify.app/"
+        },
+        {
+            id:3,
             name : "My Portfolio",
             img :i_project_2,
             language : "Reactjs",
             link :"dazzling-hopper-781624.netlify.app/"
         },
         {
-            id:3,
+            id:4,
             name : "Cosso - Clean, Minimal Responsive HTML Template",
             img : i_project_3,
             language : "HTML, CSS, Javascript",
             link :"landing.engotheme.com/html/cosso/demo/home_bestselling.html"
         },
         {
-            id:4,
+            id:5,
             name : "Ecome - Ecommerce Shopping Cart",
             img :i_project_4,
             language : "Shopify",
             link :"e-come-store.myshopify.com/"
         },
         {
-            id:5,
+            id:6,
             name : "Zoa - Minimalist Shopify Theme",
             img :i_project_5,
             language : "Shopify",
