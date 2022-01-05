@@ -17,45 +17,54 @@ import i_project_5 from "../../assets/img/project/zoa-shopify.jpg";
 
 import i_project_6 from "../../assets/img/project/photoapp-reactjs.png";
 
+import i_project_7 from "../../assets/img/project/netflix-reactjs.png";
+
 const data = {
     project : [
         {
             id:1,
+            name : "Netflix Clone - Movie App",
+            img :i_project_7,
+            language : "Reactjs",
+            link :"peaceful-lamarr-37e065.netlify.app/"
+        },
+        {
+            id:2,
             name : "Nomos - Ecommerce",
             img :i_project_1,
             language : "Reactjs",
             link :"nomos-reactredux.herokuapp.com/"
         },
         {
-            id:2,
+            id:3,
             name : "PhotoApp",
             img :i_project_6,
             language : "Reactjs",
             link :"affectionate-kalam-e32841.netlify.app/"
         },
         {
-            id:3,
+            id:4,
             name : "My Portfolio",
             img :i_project_2,
             language : "Reactjs",
             link :"dazzling-hopper-781624.netlify.app/"
         },
         {
-            id:4,
+            id:5,
             name : "Cosso - Clean, Minimal Responsive HTML Template",
             img : i_project_3,
             language : "HTML, CSS, Javascript",
             link :"landing.engotheme.com/html/cosso/demo/home_bestselling.html"
         },
         {
-            id:5,
+            id:6,
             name : "Ecome - Ecommerce Shopping Cart",
             img :i_project_4,
             language : "Shopify",
             link :"e-come-store.myshopify.com/"
         },
         {
-            id:6,
+            id:7,
             name : "Zoa - Minimalist Shopify Theme",
             img :i_project_5,
             language : "Shopify",
